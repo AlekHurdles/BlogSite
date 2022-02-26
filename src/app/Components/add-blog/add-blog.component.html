@@ -1,0 +1,26 @@
+
+
+<div class = "container">
+  <div class="container" style="background-color: #dac4c9">
+  <h2 style="text-align: center; color: black"> Have your voice heard! Please enter your content in the box below.</h2>
+  <h2 style="text-align: center; color: black">Give it a Title and tell your followers what you think!</h2>
+
+  <form>
+    <div class="form-group">
+      <label for="title" style="font-weight: bold" >Title</label>
+      <input type="text" name="title" class="form-control" placeholder="Add Title" #title>
+    </div>
+    <br>
+    <br>
+    <div class="form-group">
+      <label for="content" style="font-weight: bold">Content</label>
+      <input type="text" name="content" class="form-control" placeholder="Add Content" #content>
+    </div>
+    <br>
+    <div style="text-align: center">
+    <button type="button" (click)="addBlog(title,content)" class="btn btn-dark">Submit Post</button>
+    </div>
+  </form>
+  </div>
+</div>
+<br>

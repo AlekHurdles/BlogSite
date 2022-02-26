@@ -9,7 +9,13 @@ export class IntroComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  blogs = [];
+
+
+  ngOnInit() {
+      // @ts-ignore
+      this.blogs = JSON.parse(localStorage.getItem("blogs"))
+
   }
 
 }

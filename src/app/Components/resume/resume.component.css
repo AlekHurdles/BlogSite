@@ -1,0 +1,21 @@
+div.resume{
+  text-align: center;
+
+}
+#resume-text{
+  background-color: #dac4c9;
+  color: black;
+}
+
+.arrow{
+  font-size: 15px;
+  text-align: center;
+  animation: bounceArrow 2s infinite;
+  position: relative;
+}
+
+@keyframes bounceArrow{
+  0%{top: 0px;}
+  50%{top: 5px;}
+  100%{top: 0px;}
+}

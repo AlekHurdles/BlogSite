@@ -1,0 +1,17 @@
+<div class="container" style="text-align: center">
+  <div style="background-color: #dac4c9">
+  <h1> Community Posts </h1>
+  <br>
+  <div style="padding: 20px 0px;" *ngFor = "let blog of blogs">
+    <div class="card" >
+      <div class="card-header" style="font-size: 2em">
+        {{ blog.title }}
+        <span style="float: right; color: indianred" (click)="removeBlog(blog)" >X</span>
+      </div>
+      <div class="card-body">
+        <p class="card-text"> {{ blog.content }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
