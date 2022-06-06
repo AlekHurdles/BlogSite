@@ -27,9 +27,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "C:/Users/Stunnna/IdeaProjects/BlogSite/node_modules/bootstrap/dist/css/bootstrap.min.css"
+
             ],
-            "scripts": []
+            "scripts": [
+              "C:/Users/Stunnna/IdeaProjects/BlogSite/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "C:/Users/Stunnna/IdeaProjects/BlogSite/node_modules/jquery/dist/jquery.min.js"
+            ]
           },
           "configurations": {
             "production": {

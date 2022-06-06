@@ -9,8 +9,7 @@ import {ContactComponent} from "./Components/contact/contact.component";
 const routes: Routes = [
   {path:"",
   component: IntroComponent},
-  {
-    path: "add-blog",
+  {path: "add-blog",
     component: AddBLogComponent
   },
   { path:"posts", component: PostsComponent},
