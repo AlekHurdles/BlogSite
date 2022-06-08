@@ -32,8 +32,7 @@
 
             ],
             "scripts": [
-              "C:/Users/Stunnna/IdeaProjects/BlogSite/node_modules/bootstrap/dist/js/bootstrap.bundle.min",
-              "C:/Users/Stunnna/IdeaProjects/BlogSite/node_modules/jquery/dist/jquery.js/jquery.min.js"
+
             ]
           },
           "configurations": {
